@@ -1,16 +1,19 @@
-# gdsc_onboarding_screen
+# GDSC VIT-B 
 
-A new Flutter project.
+TASK 2
 
-## Getting Started
+[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/TheGuyDangerous/OnboardingScreen) ![Downloads](https://img.shields.io/github/downloads/TheGuyDangerous/OnboardingScreen/total)
+[![Build](https://github.com/TheGuyDangerous/OnboardingScreen/actions/workflows/flutter.yml/badge.svg)](https://github.com/TheGuyDangerous/OnboardingScreen/actions/workflows/flutter-ci.yml)
 
-This project is a starting point for a Flutter application.
+[Figma Reference File](https://www.figma.com/file/CWtZcaCT9M8PfqJZaEgjsc/Android-Task-Round?node-id=1%3A3&t=DtInJY2FqulyjIi0-0)
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/78858516/207120540-638b267c-321b-4ae2-a82b-be2756fed91f.PNG?raw=true" width="32%"> <img src="https://user-images.githubusercontent.com/78858516/207120704-a7511b34-e6d9-42cd-98eb-2ba747480634.PNG?raw=true" width="32%"> <img src="https://user-images.githubusercontent.com/78858516/207120718-b2eae6bf-639d-4968-838e-882e1834f59d.PNG?raw=true" width="32%">
+
+## Download
+
+[<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"
+     alt="Download from GitHub"
+     height="60">](https://github.com/TheGuyDangerous/OnboaordingScreen/releases)
