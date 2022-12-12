@@ -4,6 +4,7 @@ import 'package:gdsc_onboarding_screen/OnboardingScreens/Page2.dart';
 import 'package:gdsc_onboarding_screen/OnboardingScreens/Page3.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class OnBoardingPage extends StatefulWidget {
   const OnBoardingPage({Key? key}) : super(key: key);
@@ -73,7 +74,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         ],
       ),
       bottomSheet: Container(
-        height: MediaQuery.of(context).size.height * 0.4,
+        height: MediaQuery.of(context).size.height * 0.43,
         width: MediaQuery.of(context).size.width,
         decoration: const BoxDecoration(
           color: Colors.white,
@@ -117,17 +118,18 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                   padding: const EdgeInsets.only(top: 15.0, bottom: 15.0),
                   child: Text(title,
                       textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        shadows: <Shadow>[
+                      style: TextStyle(
+                        shadows: const <Shadow>[
                           Shadow(
                             offset: Offset(1.0, 1.0),
                             blurRadius: 6.0,
                             color: Color(0xffc2bcbc),
                           ),
                         ],
-                        color: Color(0xff1E0368),
+                        color: const Color(0xff1E0368),
                         fontSize: 24,
                         fontWeight: FontWeight.w700,
+                        fontFamily: GoogleFonts.poppins().fontFamily,
                       )),
                 ),
               ),
@@ -139,10 +141,11 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                   child: Text(
                     content,
                     textAlign: TextAlign.center,
-                    style: const TextStyle(
-                      color: Color(0xff676767),
+                    style: TextStyle(
+                      color: const Color(0xff676767),
                       fontSize: 19,
                       fontWeight: FontWeight.w400,
+                      fontFamily: GoogleFonts.poppins().fontFamily,
                     ),
                   ),
                 ),
@@ -177,6 +180,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                             icon: const Icon(
                               Icons.arrow_circle_right_outlined,
                               size: 50,
+                              color: Color(0xff1E0368),
                             ),
                           ),
                         ],
